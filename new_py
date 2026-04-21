@@ -1,0 +1,5 @@
+import pandas as pd
+table = pd.read_csv("Indian_Traffic_Violations (3).csv")  
+print(table)
+print(table.columns)
+print(len(table))
