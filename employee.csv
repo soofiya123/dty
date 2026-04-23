@@ -1,0 +1,23 @@
+
+empid,name,dept,salary,exp,age,location
+E001,Arjun Nair,IT,60000,3,25,Kochi
+E002,Meera Pillai,HR,45000,2,24,Trivandrum
+E003,Rahul Menon,Finance,70000,5,29,Kozhikode
+E004,Anjali Varma,IT,80000,6,31,Kochi
+E005,Vikram Nair,Sales,50000,4,28,Thrissur
+E006,Neha Das,Marketing,55000,3,26,Bangalore
+E007,Amit Sharma,IT,90000,7,34,Hyderabad
+E008,Pooja Singh,HR,48000,2,25,Delhi
+E009,Suresh Kumar,Finance,75000,6,32,Chennai
+E010,Divya Nair,Marketing,53000,3,27,Kochi
+E011,Karthik R,IT,67000,4,29,Coimbatore
+E012,Sneha Iyer,HR,46000,2,26,Trivandrum
+E013,Ramesh Babu,Sales,52000,3,30,Kozhikode
+E014,Asha Menon,Finance,72000,5,33,Kochi
+E015,Deepak S,IT,88000,7,35,Bangalore
+E016,Lakshmi P,Marketing,56000,4,28,Chennai
+E017,Manoj K,Sales,51000,3,27,Thrissur
+E018,Nisha R,HR,47000,2,24,Kollam
+E019,Ajith V,Finance,76000,6,34,Ernakulam
+E020,Rekha M,IT,82000,5,31,Hyderabad
+

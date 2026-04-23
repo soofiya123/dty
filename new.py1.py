@@ -53,14 +53,31 @@ print(result)
 result=studentTable[studentTable['mark']<=570|(studentTable['age']>=20)]
 print(result)
 
-# Q)find student with mark above 560 and below 575
-# result=studentTable[(studentTable['mark'])]
 
 
 
+import pandas as pd
+employeeTable=pd.read_csv("employee.csv")
 
+# Q)find employee whose salary is above 50000and below 80000
+result=employeeTable[(employeeTable['salary']>=50000)&(employeeTable['salary']<=80000)]
+print(result)
 
+# Q)find employee whose age is between 25 and 30
+result=employeeTable[employeeTable['age'].between(25,30)]
+print(result)
 
+# Q)find the employee who work in IT department and have experience greater than 5 year
+result=employeeTable[(employeeTable['dept']=='IT')&(employeeTable['exp']>5)]
+print(result)
+
+# Q)find employee from kochi or hyderabad location
+result=employeeTable[(employeeTable['location']=='kochi')&(employeeTable['location']=='hyderabad')]
+print(result)
+
+# Q)find employee whose age is between 28and 35 salary is between 60000,90000
+result= employeeTable[(employeeTable['age'].between(28,35))&(employeeTable['salary'].between(60000,90000))]
+print(result)
 
 
 
