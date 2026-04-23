@@ -26,3 +26,8 @@ result=table.groupby('dept').agg(
 print(result)
 
 # Q)find employee avg experience ,avg age in location wise
+result=table.groupby('location').agg(
+    avgExperience=('exp','mean'),
+    avgAge=('age','mean')
+)
+print(result)
