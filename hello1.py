@@ -16,3 +16,13 @@ firstEmployee=('name','min'),
 lastEmployee=('name','max'),
 )
 print(result)
+
+result=table.groupby('dept').agg(
+ CountofEmps=('empid','count'),
+  Totalsalary=('salary','sum'),
+   avgSalary=('salary','mean'),
+   minAge=('age','min') 
+)
+print(result)
+
+# Q)find employee avg experience ,avg age in location wise
