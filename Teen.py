@@ -1,8 +1,8 @@
 import pandas as pd
 table=pd.read_csv("Teen_Mental_Health_Dataset.csv")
-#Q1) find average daily social media hours grouped by gender
-# result=table.groupby('gender')['daily_social_media_hours'].mean()
-# print(result)
+# #Q1) find average daily social media hours grouped by gender
+# # result=table.groupby('gender')['daily_social_media_hours'].mean()
+# # print(result)
 
 
 # Q2)  find average sleep hours for each platform_usage(instagram,TikTok,Both)
@@ -41,5 +41,14 @@ table=pd.read_csv("Teen_Mental_Health_Dataset.csv")
 # print(result)
 
 # Q10)total addiction_level for each social_interaction_level
-result=table.groupby('social_interaction_level')['addiction_level'].sum()
-print(result)
+# result=table.groupby('social_interaction_level')['addiction_level'].sum()
+# print(result)
+
+
+
+import matplotlib .pyplot as plt
+plt.hist(table['sleep_hours'])
+plt.xlabel("sleep Hours")
+plt.ylabel("frequency")
+plt.title("sleep hours Distribution")
+plt.show()
